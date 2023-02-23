@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Ukraine.css">
+	<title>Discover Ukraine</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- Header -->
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about">About Ukraine</a></li>
+				<li><a href="#destinations">Destinations</a></li>
+				<li><a href="#food">Food and Drink</a></li>
+				<li><a href="#activities">Activities</a></li>
+				<li><a href="#accommodation">Accommodation</a></li>
+				<li><a href="#transportation">Transportation</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Main content -->
+	<main>
+		<section id="hero">
+			<h1>Welcome to Ukraine</h1>
+			<p>Discover the beauty and charm of Ukraine, from historic cities to stunning natural landscapes.</p>
+			<a href="#about" class="btn btn-primary">Learn more</a>
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<h2>About Ukraine</h2>
+				<p>Ukraine is a country in Eastern Europe known for its rich history and culture. It is the second-largest country in Europe after Russia, and it shares borders with Poland, Slovakia, Hungary, Romania, Moldova, Russia, and Belarus.</p>
+				<img src="https://i.imgur.com/Uk0biF5.jpg" alt="Ukraine landscape">
+				<p>Despite its tumultuous past, Ukraine is a country of great beauty and diversity. Its cities boast stunning architecture, vibrant culture, and delicious cuisine, while its countryside is home to magnificent mountains, lush forests, and serene lakes.</p>
+				<p>Whether you're interested in history, culture, nature, or just want to experience something new and exciting, Ukraine has something to offer.</p>
+			</div>
+		</section>
+
+		<section id="destinations">
+			<div class="container">
+				<h2>Destinations</h2>
+				<p>Ukraine has a variety of destinations that offer something for every type of traveler.</p>
+				<div class="destination-card">
+					<img src="https://i.imgur.com/hnFJfzG.jpg" alt="Kyiv skyline">
+					<div class="destination-info">
+						<h3>Kyiv</h3>
+						<p>Kyiv is the capital and largest city of Ukraine. It is known for its beautiful architecture, vibrant nightlife, and rich cultural heritage.</p>
+						<a href="https://en.wikipedia.org/wiki/Kyiv" class="btn btn-secondary">Learn more</a>
+					</div>
+				</div>
+				<!-- More destination cards here -->
+			</div>
+		</section>
+
+		<!-- More sections here -->
+	</main>
+
+	<!-- Footer -->
+	<footer>
+		<p>&copy; 2023 Discover Ukraine. All rights reserved.</p>
+	</footer>
+
+	<script src="Ukraine.js"></script>
+</body>
+</html>

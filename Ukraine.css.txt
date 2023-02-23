@@ -1,0 +1,147 @@
+/* General styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Header styles */
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+
+nav ul {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Main content styles */
+#hero {
+	background-image: url(https://i.imgur.com/9cHKvWO.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+#hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+#hero p {
+	font-size: 24px;
+	margin-bottom: 30px;
+	max-width: 600px;
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+	background-color: #1E90FF;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background-color: #0077B5;
+}
+
+.btn-secondary {
+	background-color: #fff;
+	color: #333;
+	border: 2px solid #333;
+}
+
+.btn-secondary:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.destination-card {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.destination-card img {
+	width: 50%;
+	object-fit: cover;
+}
+
+.destination-info {
+	background-color: #fff;
+	padding: 20px;
+	width: 50%;
+}
+
+.destination-info h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.destination-info p {
+	margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
